@@ -51,6 +51,7 @@ const PlanetSystem = () => {
   ]);
 
   useFrame(() => {
+    // Rotate the Earth and clouds
     earthRef.current.rotation.y += 0.0008;
     cloudRef.current.rotation.y += 0.001;
   });
@@ -99,8 +100,6 @@ const GalaxyBackground = () => {
         depth={50} // Reduce depth for fewer stars
         count={5000} // Reduce the number of stars
         factor={4} // Adjust the spread of stars
-        fade
-        speed={1} // Lower the speed for smoother animation
       />
 
       {/* Lighting */}
@@ -117,10 +116,7 @@ const GalaxyBackground = () => {
       <PlanetSystem />
 
       {/* Environment Reflections */}
-      <Environment
-        files="/hdr/nebula.hdr"
-        background
-      />
+      <Environment preset="night" />
 
       {/* Shadows */}
       <ContactShadows
@@ -139,8 +135,8 @@ const GalaxyBackground = () => {
       <EffectComposer>
         <Bloom
           intensity={0.8} // Reduce bloom intensity
-          luminanceThreshold={0.2}
-          luminanceSmoothing={0.8}
+          luminanceThreshold={0.4}
+          luminanceSmoothing={1.5}
         />
         <DepthOfField focusDistance={0.02} focalLength={0.1} bokehScale={1.5} />
       </EffectComposer>
