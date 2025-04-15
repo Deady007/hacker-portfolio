@@ -10,7 +10,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        Hello, I'm <span className="text-cyan-400">Radhey</span>
+        Hello, I'm <span className="text-cyan-400">Deady007</span>
       </motion.h1>
 
       <motion.div
