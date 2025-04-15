@@ -1,7 +1,7 @@
 import ParticlesBackground from "../components/ParticlesBackground";
 import Hero from "../components/Hero";
 import About from "../components/About";
-import SkillTerminal from "../components/Skillterminal"; // Import SkillsTerminal
+import SkillTerminal from "../components/SkillTerminal"; // Correct the casing
 import Projects from "../components/Projects";
 import Galaxy from "../components/Galaxy";
 
