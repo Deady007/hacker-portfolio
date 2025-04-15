@@ -1,0 +1,9 @@
+/* Add this to your index.css or App.css to ensure full-screen coverage */
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;  /* Ensure it's in the background */
+  width: 100%;
+  height: 100%;
+}
