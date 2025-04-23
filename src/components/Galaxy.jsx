@@ -22,13 +22,13 @@ const planetTextures = [
 const projects = [
   { name: 'Home-Based Palliative Care System', url: '#' },
   { name: 'Guglu1 – Personal AI Assistant', url: 'https://guglu1.onrender.com/' },
-  { name: 'Hacker Portfolio', url: 'https://hacker-portfolio-beige.vercel.app/' },
+  { name: 'Hacker Portfolio', url: 'https://portfolio20-snowy.vercel.app/' },
   { name: 'SamratV1 – Food Delivery App', url: 'https://samratv1.vercel.app/' },
-  { name: 'Weather UI', url: 'https://deady007.github.io/weather-app/' },
-  { name: 'eSports Event Management', url: 'furious.42web.io' },
-  { name: 'Money Management System', url: 'moneymanager.great-site.net/' },
+  { name: 'Weather UI', url: 'https://weather1-2-tau.vercel.app/' },
+  { name: 'eSports Event Management', url: 'http://furious.42web.io' },
+  { name: 'Money Management System', url: 'http://moneymanager.great-site.net/' },
   { name: 'Portfolio Website', url: 'https://deady007.github.io/My-site/' },
-  { name: 'Task Management System', url: 'tasky.lovestoblog.com' },
+  { name: 'Task Management System', url: 'http://tasky.lovestoblog.com/tasky2.0/public/' },
   { name: 'Self-Help Care Group Management', url: '#' },
   { name: 'Weather App (Basic)', url: 'https://deady007.github.io/weather-app/' },
 ];
